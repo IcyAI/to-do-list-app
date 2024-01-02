@@ -32,13 +32,13 @@ function newItem(){
     
     //      li.addEventListener("dblclick",crossOut);
     
-        function crossOut() {
-            li.toggleClass('Strike');
-        }
+    function crossOut() {
+      li.toggleClass("strike");
+  }
 
-        li.on("dblclick", function crossOut () {
-            li.toggleClass('Strike');
-        })
+  li.on("dblclick", function crossOut() {
+      li.toggleClass("strike");
+  });
 
      //3(i). Adding the delete button "X": 
     //    let crossOutButton = document.createElement("crossOutButton");
